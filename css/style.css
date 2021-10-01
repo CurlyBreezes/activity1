@@ -1,0 +1,144 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    margin: 0px;
+    padding:0px;
+    background: color #e0edfe;;
+    height: 150 vh;
+    
+}
+.clearfix{clear: both;}
+.resume-box{
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: rgb(75, 65, 65);
+    box-shadow:4px 4px 20px rgba(0, 0, 0, 0.2px);
+    border-radius: 5px;
+}
+.box-outer{
+    padding: 30px;
+    box-shadow:0px 35px 55px rgba(0, 0, 0, 0.1px);
+    border-radius: 5px;
+}
+.box-1{
+    background-color:rgb(12, 12, 12);
+    width: 35%;
+    float: left;
+    height: 1000px;
+    border-radius: 5px;
+    box-shadow:0px 35px 55px rgba(0, 0, 0, 0.1px);
+    
+}
+.box-2{
+    width: 60%;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0px 35px 55px rgba(0, 0, 0, 0.1px)
+}
+.profile{
+    width: 50%;
+    border-radius: 47%;
+    display: block;
+    margin: auto;
+  
+  
+}
+h3{
+    color:black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title{
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+}
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
+    text-align: justify;
+    margin: 5px;
+}
+.innerbox{
+    background-color:aqua;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    border-radius: 3px;
+    
+
+}
+i{
+    color: aqua;
+    border-radius: 70%;
+    background-color: gray;
+    padding: 10px;
+}
+.description{
+    text-align: center;
+    color: black;
+}
+.contact{
+    padding: 5px;
+    text-align: left;
+    margin-left: 15px;
+
+}
+b{
+    color:aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.w3container{
+padding-bottom: 20px;
+}
+.lol{
+    color: white;
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin-left: 20px;
+}
+span{
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h5{
+    color: white;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative; 
+}
+.box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.progress{
+    height: 20px;
+    width: 180px;
+    background-color: #ccc;
+    border-radius: 25px;
+    margin-left: 30px;
+    }
+    
+.progress .percent{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    border-radius: 25px;
+    }
+.software{
+    column-count: 2;
+}
+.soft{
+padding: 1px;
+
+}
+
